@@ -10,7 +10,7 @@ class PregaCareAIEngine:
     def __init__(self):
         self.api_key = os.getenv("OPENROUTER_API_KEY")
         self.api_url = "https://openrouter.ai/api/v1/chat/completions"
-        self.model = "google/gemini-2.0-flash-lite-001" # Verified working model name
+        self.model = "google/gemma-4-26b-a4b-it:free" # Verified working model name
         
         # Internal Knowledge Base Paths
         self.kb_path = "knowledge_base/medical_guidelines/"
