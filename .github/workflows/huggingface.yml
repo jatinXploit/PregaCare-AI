@@ -1,21 +1,26 @@
-name: Sync to Hugging Face hub
+name: Sync backend to Hugging Face
+
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
   sync-to-hub:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           lfs: true
-      - name: Push to hub
+
+      - name: Push to Hugging Face Space
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git config --global user.email "parth@example.com"
-          git config --global user.name "Parth Mudgal"
-          git push --force https://parthmudgal28:$HF_TOKEN@huggingface.co/spaces/parthmudgal28/PregaCare-AI main
+          git config --global user.email "jatin.2025loq@gmail.com"
+          git config --global user.name "jatinXploit"
+          git push --force https://jatinXploit:$HF_TOKEN@huggingface.co/spaces/jatinXploit/pregacare-api main

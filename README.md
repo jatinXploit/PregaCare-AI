@@ -1,4 +1,14 @@
-# PregaCare AI: Intelligent Maternal Health Ecosystem 🤰✨
+---
+title: PregaCare API
+emoji: 🩺
+colorFrom: purple
+colorTo: pink
+sdk: docker
+pinned: false
+app_port: 7860
+---
+
+# PregaCare AI: Intelligent Maternal Health Ecosystem 
 
 PregaCare AI is a comprehensive maternal health support system designed to provide personalized clinical risk assessment and AI-driven guidance for expectant mothers in India.
 
