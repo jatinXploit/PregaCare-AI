@@ -12,7 +12,7 @@ app_port: 7860
 
 PregaCare AI is a comprehensive maternal health support system designed to provide personalized clinical risk assessment and AI-driven guidance for expectant mothers in India.
 
-## Live Demo: https://pregacare01.vercel.app/
+## Live Demo: https://prega-care-ai.vercel.app/
 
 
 ## 🚀 Key Features
